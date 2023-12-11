@@ -4,12 +4,13 @@ function rand10(min, max){
 
 console.log(rand10(1,10));
 
+let n = rand10(1,10);
 function multiRand(n) {
-    let randomNum = [];
+    let randomNumber = [];
     for (let i = 0; i<n; i++) {
-        randomNum.push(rand10(1, 10))
+        randomNumber.push(rand10(1, 10))
     }
-    return randomNum;
+    console.log(randomNumber)
 }
 
-console.log(multiRand(n))
+multiRand(n)
